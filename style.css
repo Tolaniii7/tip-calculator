@@ -130,7 +130,7 @@ main {
   padding: 3rem;
   margin: 0 auto;
   margin-bottom: 2em;
-  width: 80%;
+  width: 90%;
   border-radius: 1em;
   display: flex;
   flex-direction: column;
@@ -147,12 +147,12 @@ main {
 .label-tip-total {
   color: hsl(172, 67%, 45%);
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .label-tip-amount {
   color: hsl(172, 67%, 45%);
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bolder;
 }
 
