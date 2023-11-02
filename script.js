@@ -52,4 +52,6 @@ customInputTips.addEventListener("keydown", function (e) {
 btnReset.addEventListener("click", function () {
   labelAmt.textContent = `$ ${(0).toFixed("2")}`;
   labelTotal.textContent = `$ ${(0).toFixed("2")}`;
+  billInput.value = "";
+  peopleInput.value = "";
 });
