@@ -17,7 +17,7 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
       }
       .attribution a {
@@ -37,21 +37,21 @@
           placeholder="0"
         />
 
-        <div class="container-box">
-          <p class="headers">Select Tip %</p>
+        <p class="headers">Select Tip %</p>
 
-          <div class="tip__box">
-            <button class="tip-percentages">5%</button>
-            <button class="tip-percentages">10%</button>
-            <button class="tip-percentages">15%</button>
-            <button class="tip-percentages">25%</button>
-            <button class="tip-percentages">50%</button>
-            <input type="number" placeholder="Custom" class="tip-custom" />
-          </div>
+        <div class="tip__box">
+          <button class="tip-percentages">5%</button>
+          <button class="tip-percentages">10%</button>
+          <button class="tip-percentages">15%</button>
+          <button class="tip-percentages">25%</button>
+          <button class="tip-percentages">50%</button>
+          <input type="number" placeholder="Custom" class="tip-custom" />
         </div>
 
-        <p class="headers">Number of People</p>
-
+        <div class="container-box">
+          <p class="headers">Number of People</p>
+          <label class="headers label-warning">Can't be zero</label>
+        </div>
         <input
           type="number"
           class="input--bill input--bill__2"
@@ -68,7 +68,7 @@
           <p class="label-tip-amount">$4.29</p>
         </div>
 
-        <div class="section--2">
+        <div class="section--1">
           <div class="tips">
             <p class="tip-amount">Total</p>
             <p class="tip-per-person">/ person</p>

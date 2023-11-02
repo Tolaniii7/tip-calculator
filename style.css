@@ -22,20 +22,20 @@ body {
   display: flex;
   flex-direction: column;
   background-color: white;
-  border-top-left-radius: 5em;
-  border-top-right-radius: 5em;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
   margin-bottom: 2em;
 }
 
 /* @media only screen and (min-width: 600px) {
   .container {
-    display: flex;  
+    display: flex;
     flex-direction: row;
   }
 } */
 
 .article {
-  max-width: 80%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -46,7 +46,6 @@ body {
   margin-bottom: 0.7em;
   height: 80px;
   font-size: 30px;
-  border-radius: 2em;
   background-color: hsl(189, 41%, 97%);
   text-align: right;
   font-family: "Space Mono", monospace;
@@ -57,14 +56,14 @@ body {
   background-image: url(images/icon-dollar.svg);
   background-repeat: no-repeat;
   background-position: 17px 20px;
-  background-size: 30px;
+  background-size: 20px;
 }
 
 .input--bill__2 {
   background-image: url(images/icon-person.svg);
   background-repeat: no-repeat;
   background-position: 17px 20px;
-  background-size: 30px;
+  background-size: 20px;
 }
 
 .headers {
@@ -95,9 +94,9 @@ body {
   background-color: hsl(183, 100%, 15%);
   color: hsl(0, 0%, 100%);
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: 5px;
   font-family: "Space Mono", monospace;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bolder;
 }
 
@@ -116,65 +115,69 @@ body {
   color: hsl(183, 100%, 15%);
 }
 
+.container-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label-warning {
+  display: none;
+}
+
 main {
   background-color: hsl(183, 100%, 15%);
   padding: 3rem;
   margin: 0 auto;
   margin-bottom: 2em;
   width: 80%;
-  border-radius: 2em;
+  border-radius: 1em;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .section--1 {
   display: flex;
   align-items: center;
-  gap: 4em;
+  justify-content: space-between;
+  padding-top: 2rem;
   color: hsl(0, 0%, 100%);
-}
-
-.section--2 {
-  display: flex;
-  align-items: center;
-  gap: 8em;
-  color: hsl(0, 0%, 100%);
-  padding-top: 1em;
 }
 
 .label-tip-total {
   color: hsl(172, 67%, 45%);
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .label-tip-amount {
   color: hsl(172, 67%, 45%);
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bolder;
 }
 
 .tip-amount {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 1rem;
   font-family: "Space Mono", monospace;
 }
 
 .tip-per-person {
   color: hsl(184, 14%, 56%);
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .button-reset {
-  width: 70%;
-  padding: 1em;
+  width: 90%;
+  padding: 0.5em;
   background-color: hsl(172, 67%, 45%);
-  color: hsl(183, 100%, 15%);
+  color: hsl(186, 14%, 43%);
   font-family: "Space Mono", monospace;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 28px;
+  margin: 0 auto;
   margin-top: 1em;
   border-radius: 10px;
   text-align: center;
+  border: none;
 }
